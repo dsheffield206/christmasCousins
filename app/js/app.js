@@ -54,3 +54,21 @@ var cousins = [ {
   first_name: Emma,
   last_name: Montgomery
 }];
+
+// randomly generate new cousin array
+var pickCousins = function(){
+  var cousinPicks = [];
+  var giver = {};
+  var recipient = {};
+  for(var i = 0; i < cousins.length; i++){
+    if(cousins[i].last_name === [add logic here]){ // giver and recipient last name cannot equal
+      // do something here
+    }
+    console.log(cousinPicks);
+  }
+};
+
+var makePicks = document.getElementById('pickButton');
+    makePicks.addEventListener('click', function(){
+      pickCousins(cousins);
+    });
